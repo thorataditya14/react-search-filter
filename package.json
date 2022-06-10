@@ -1,0 +1,11 @@
+{
+    "name": "rollcall-rooms",
+    "version": "1.0.0",
+    "main": "",
+    "scripts": {
+        "start": "npm start --port 8000",
+        "install-client": "cd client && npm install && npm run build && cd ..",
+        "install-server": "cd api && npm install && node ./index.js && cd ..",
+        "heroku-postbuild": "npm run install-client && npm run install-server"
+    }
+}
