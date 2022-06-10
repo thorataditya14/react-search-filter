@@ -1,0 +1,7 @@
+th, td {
+    /* background-color: lightgray; */
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 150px;
+    text-align: left;
+}
