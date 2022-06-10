@@ -4,8 +4,8 @@
     "main": "",
     "scripts": {
         "start": "npm start --port 8000",
-        "install-client": "cd client && npm install && npm run build && cd ..",
-        "install-server": "cd api && npm install && node ./index.js && cd ..",
+        "install-client": "cd client && npm install && cd ..",
+        "install-server": "cd api && npm install && cd ..",
         "heroku-postbuild": "npm run install-client && npm run install-server"
     }
 }
